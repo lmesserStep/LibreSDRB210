@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../lib/control" \
+"../../../../libresdr_b210.srcs/sources_1/imports/24xx04_Verilog_Model/24FC04.v" \
+"../../../../libresdr_b210.srcs/sources_1/new/DNA_capture.v" \
+"../../../../libresdr_b210.srcs/sources_1/imports/HDL/AES-FPGA/aes_core/aes_cipher_top.v" \
+"../../../../libresdr_b210.srcs/sources_1/imports/HDL/AES-FPGA/aes_core/aes_key_expand_128.v" \
+"../../../../libresdr_b210.srcs/sources_1/imports/HDL/AES-FPGA/aes_core/aes_rcon.v" \
+"../../../../libresdr_b210.srcs/sources_1/imports/HDL/AES-FPGA/aes_core/aes_sbox.v" \
+"../../../../libresdr_b210.srcs/sources_1/imports/HDL/Verilog_i2c_eeprom/eeprom.v" \
+"../../../../libresdr_b210.srcs/sources_1/new/encpy.v" \
+"../../../../libresdr_b210.srcs/sources_1/imports/HDL/Verilog_i2c_eeprom/iic.v" \
+"../../../../libresdr_b210.srcs/sources_1/imports/HDL/Verilog_i2c_eeprom/iic_control.v" \
+"../../../../libresdr_b210.srcs/sim_1/new/ency_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

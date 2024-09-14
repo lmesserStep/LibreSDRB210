@@ -1,0 +1,486 @@
+***************************************************************************************
+*                      PROJECT ARCHIVE SUMMARY REPORT
+*
+*                      (archive_project_summary.txt)
+*
+*  PLEASE READ THIS REPORT TO GET THE DETAILED INFORMATION ABOUT THE PROJECT DATA THAT
+*  WAS ARCHIVED FOR THE CURRENT PROJECT
+*
+* The report is divided into following five sections:-
+*
+* Section (1) - PROJECT INFORMATION
+*  This section provides the details of the current project that was archived
+*
+* Section (2) - INCLUDED/EXCLUDED RUNS
+*  This section summarizes the list of design runs for which the results were included
+*  or excluded from the archive
+*
+* Section (3) - ARCHIVED SOURCES
+*  This section summarizes the list of files that were added to the archive
+*
+* Section (3.1) - INCLUDE FILES
+*  This section summarizes the list of 'include' files that were added to the archive
+*
+* Section (3.1.1) - INCLUDE_DIRS SETTINGS
+*  This section summarizes the 'verilog include directory' path settings, if any
+*
+* Section (3.2) - REMOTE SOURCES
+*  This section summarizes the list of referenced 'remote' files that were 'imported'
+*  into the archived project
+*
+* Section (3.3) - SOURCES SUMMARY
+*  This section summarizes the list of all the files present in the archive
+*
+* Section (3.4) - REMOTE IP DEFINITIONS
+*  This section summarizes the list of all the remote IP's present in the archive
+*
+* Section (4) - JOURNAL/LOG FILES
+*  This section summarizes the list of journal/log files that were added to the archive
+*
+***************************************************************************************
+
+Section (1) - PROJECT INFORMATION
+---------------------------------
+Name      = libresdr_b210
+Directory = /home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/libresdr_b210
+
+WARNING: Please verify the compiled library directory path for the following property in the
+         current project. The path may point to an invalid location after opening this project.
+         This could happen if the project was unarchived in a location where this path is not
+         accessible. To resolve this issue, please set this property with the desired path
+         before launching simulation:-
+
+Property = compxlib.xsim_compiled_library_dir
+Path     = 
+
+Section (2) - Excluded Runs
+---------------------------
+The run results were excluded for the following runs in the archived project:-
+
+<synth_1>
+<clk_wiz_0_synth_1>
+<gen_clks_synth_1>
+<fifo_short_2clk_synth_1>
+<fifo_4k_2clk_synth_1>
+<impl_1>
+<clk_wiz_0_impl_1>
+<gen_clks_impl_1>
+<fifo_short_2clk_impl_1>
+<fifo_4k_2clk_impl_1>
+
+Section (3) - ARCHIVED SOURCES
+------------------------------
+The following sub-sections describes the list of sources that were archived for the current project:-
+
+Section (3.1) - INCLUDE FILES
+-----------------------------
+List of referenced 'RTL Include' files that were 'imported' into the archived project:-
+
+None
+
+Section (3.1.1) - INCLUDE_DIRS SETTINGS
+---------------------------------------
+List of the "INCLUDE_DIRS" fileset property settings that may or may not be applicable in the archived
+project, since most the 'RTL Include' files referenced in the original project were 'imported' into the
+archived project.
+
+<sources_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+<sim_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+Section (3.2) - REMOTE SOURCES
+------------------------------
+List of referenced 'remote' design files that were 'imported' into the archived project:-
+
+<clk_wiz_0>
+/home/lvchenyang/.Xil/Vivado-21711-ubuntu/PrjAr/_X_/libresdr_b210.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc
+/home/lvchenyang/.Xil/Vivado-21711-ubuntu/PrjAr/_X_/libresdr_b210.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp
+/home/lvchenyang/.Xil/Vivado-21711-ubuntu/PrjAr/_X_/libresdr_b210.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_stub.v
+/home/lvchenyang/.Xil/Vivado-21711-ubuntu/PrjAr/_X_/libresdr_b210.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_stub.vhdl
+/home/lvchenyang/.Xil/Vivado-21711-ubuntu/PrjAr/_X_/libresdr_b210.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.v
+/home/lvchenyang/.Xil/Vivado-21711-ubuntu/PrjAr/_X_/libresdr_b210.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.vhdl
+/home/lvchenyang/.Xil/Vivado-21711-ubuntu/PrjAr/_X_/libresdr_b210.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc
+/home/lvchenyang/.Xil/Vivado-21711-ubuntu/PrjAr/_X_/libresdr_b210.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_ooc.xdc
+/home/lvchenyang/.Xil/Vivado-21711-ubuntu/PrjAr/_X_/libresdr_b210.gen/sources_1/ip/clk_wiz_0/mmcm_pll_drp_func_7s_mmcm.vh
+/home/lvchenyang/.Xil/Vivado-21711-ubuntu/PrjAr/_X_/libresdr_b210.gen/sources_1/ip/clk_wiz_0/mmcm_pll_drp_func_7s_pll.vh
+/home/lvchenyang/.Xil/Vivado-21711-ubuntu/PrjAr/_X_/libresdr_b210.gen/sources_1/ip/clk_wiz_0/mmcm_pll_drp_func_us_mmcm.vh
+/home/lvchenyang/.Xil/Vivado-21711-ubuntu/PrjAr/_X_/libresdr_b210.gen/sources_1/ip/clk_wiz_0/mmcm_pll_drp_func_us_pll.vh
+/home/lvchenyang/.Xil/Vivado-21711-ubuntu/PrjAr/_X_/libresdr_b210.gen/sources_1/ip/clk_wiz_0/mmcm_pll_drp_func_us_plus_pll.vh
+/home/lvchenyang/.Xil/Vivado-21711-ubuntu/PrjAr/_X_/libresdr_b210.gen/sources_1/ip/clk_wiz_0/mmcm_pll_drp_func_us_plus_mmcm.vh
+/home/lvchenyang/.Xil/Vivado-21711-ubuntu/PrjAr/_X_/libresdr_b210.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v
+/home/lvchenyang/.Xil/Vivado-21711-ubuntu/PrjAr/_X_/libresdr_b210.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v
+/home/lvchenyang/.Xil/Vivado-21711-ubuntu/PrjAr/_X_/libresdr_b210.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xml
+
+<fifo_4k_2clk>
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_4k_2clk/fifo_4k_2clk.xci
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_4k_2clk/fifo_4k_2clk.dcp
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_4k_2clk/fifo_4k_2clk_stub.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_4k_2clk/fifo_4k_2clk_stub.vhdl
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_4k_2clk/fifo_4k_2clk_sim_netlist.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_4k_2clk/fifo_4k_2clk_sim_netlist.vhdl
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_4k_2clk/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_4k_2clk/fifo_4k_2clk.xdc
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_4k_2clk/fifo_4k_2clk_clocks.xdc
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_4k_2clk/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_4k_2clk/synth/fifo_4k_2clk.vhd
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_4k_2clk/fifo_4k_2clk_ooc.xdc
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_4k_2clk/fifo_4k_2clk.xml
+
+<fifo_short_2clk>
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_short_2clk/fifo_short_2clk.xci
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_short_2clk/fifo_short_2clk.dcp
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_short_2clk/fifo_short_2clk_stub.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_short_2clk/fifo_short_2clk_stub.vhdl
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_short_2clk/fifo_short_2clk_sim_netlist.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_short_2clk/fifo_short_2clk_sim_netlist.vhdl
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_short_2clk/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_short_2clk/fifo_short_2clk.xdc
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_short_2clk/fifo_short_2clk_clocks.xdc
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_short_2clk/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_short_2clk/synth/fifo_short_2clk.vhd
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_short_2clk/fifo_short_2clk_ooc.xdc
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/fifo_short_2clk/fifo_short_2clk.xml
+
+<gen_clks>
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/gen_clks/gen_clks.xci
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/gen_clks/gen_clks_board.xdc
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/gen_clks/gen_clks.dcp
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/gen_clks/gen_clks_stub.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/gen_clks/gen_clks_stub.vhdl
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/gen_clks/gen_clks_sim_netlist.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/gen_clks/gen_clks_sim_netlist.vhdl
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/gen_clks/gen_clks.xdc
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/gen_clks/gen_clks_ooc.xdc
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/gen_clks/mmcm_pll_drp_func_7s_mmcm.vh
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/gen_clks/mmcm_pll_drp_func_7s_pll.vh
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/gen_clks/mmcm_pll_drp_func_us_mmcm.vh
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/gen_clks/mmcm_pll_drp_func_us_pll.vh
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/gen_clks/mmcm_pll_drp_func_us_plus_pll.vh
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/gen_clks/mmcm_pll_drp_func_us_plus_mmcm.vh
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/gen_clks/gen_clks_clk_wiz.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/gen_clks/gen_clks.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/ip/gen_clks/gen_clks.xml
+
+<constrs_2>
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/xdc/b210.xdc
+
+<sim_1>
+None
+
+<sources_1>
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/ngc/hbdec2.ngc
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/ngc/hbdec1.ngc
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/top/DACx311_auto_spi.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/acc.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/add2.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/add2_and_clip.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/add2_and_clip_reg.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/add2_and_round.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/add2_and_round_reg.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/add2_reg.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/add_then_mac.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/fifo/axi_demux4.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/fifo/axi_fifo.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/fifo/axi_fifo32_to_fifo64.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/fifo/axi_fifo64_to_fifo32.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/fifo/axi_fifo_2clk.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/fifo/axi_fifo_bram.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/fifo/axi_fifo_flop.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/fifo/axi_fifo_flop2.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/fifo_200/axi_fifo_legacy.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/fifo/axi_fifo_short.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/fifo/axi_mux4.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/fifo/axi_packet_gate.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/top/b200_core.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/top/b205_ref_pll.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/control/binary_encoder.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/vita_200/chdr_12sc_to_16sc.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/vita_200/chdr_16sc_to_12sc.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/vita_200/chdr_16sc_to_32f.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/vita_200/chdr_16sc_to_8sc.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/vita_200/chdr_16sc_to_xxxx_chain.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/vita_200/chdr_32f_to_16sc.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/vita_200/chdr_8sc_to_16sc.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/vita_200/chdr_xxxx_to_16sc_chain.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/cic_dec_shifter.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/cic_decim.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/cic_int_shifter.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/cic_interp.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/cic_strober.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/clip.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/clip_reg.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/vita_200/context_packet_gen.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/cordic_stage.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/cordic_z24.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/control_200/cvita_uart.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/ddc_chain.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/duc_chain.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/gpif2/fifo64_to_gpif2.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/vita_200/float_to_iq.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/gpif2/gpif2_error_checker.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/gpif2/gpif2_slave_fifo32.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/gpif2/gpif2_to_fifo64.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/control/gpio_atr.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/control/gpio_atr_io.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/hb47_int.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/hb_dec.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/hb_interp.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/ngc/hbdec1.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/ngc/hbdec2.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/vita_200/iq_to_float.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/cat_io/libresdr_b205_io.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/vita_200/new_rx_control.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/vita_200/new_rx_framer.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/vita_200/new_tx_control.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/vita_200/new_tx_deframer.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/timing/pps_generator.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/control_200/radio_ctrl_proc.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/radio_200/radio_legacy.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/control/ram_2port_impl.vh
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/control/ram_2port.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/control/reset_sync.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/round.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/round_reg.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/round_sd.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/control/serial_to_settings.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/control/setting_reg.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/sign_extend.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/control/simple_spi_core.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/wishbone/simple_uart.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/wishbone/simple_uart_rx.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/wishbone/simple_uart_tx.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/small_hb_dec.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/small_hb_int.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/packet_proc_200/source_flow_control_legacy.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/dsp/srl.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/control/synchronizer.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/control/synchronizer_impl.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/timing/time_compare.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/timing/timekeeper_legacy.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/vita_200/trigger_context_pkt.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/vita_200/tx_responder.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/lib/control/user_settings.v
+/home/lvchenyang/workspace/SDR/usrp/myusrp/b210/libresdr_b210/top/libresdr_b210.v
+
+<utils_1>
+None
+
+Section (3.3) - SOURCES SUMMARY
+-------------------------------
+List of all the source files present in the archived project:-
+
+<sources_1>
+./libresdr_b210.srcs/sources_1/imports/lib/ngc/hbdec2.ngc
+./libresdr_b210.srcs/sources_1/imports/lib/ngc/hbdec1.ngc
+./libresdr_b210.srcs/sources_1/imports/lib/esdr_b210/top/DACx311_auto_spi.v
+./libresdr_b210.srcs/sources_1/new/DNA_capture.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/acc.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/add2.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/add2_and_clip.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/add2_and_clip_reg.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/add2_and_round.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/add2_and_round_reg.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/add2_reg.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/add_then_mac.v
+./libresdr_b210.srcs/sources_1/imports/HDL/AES-FPGA/aes_core/timescale.v
+./libresdr_b210.srcs/sources_1/imports/HDL/AES-FPGA/aes_core/aes_cipher_top.v
+./libresdr_b210.srcs/sources_1/imports/HDL/AES-FPGA/aes_core/aes_key_expand_128.v
+./libresdr_b210.srcs/sources_1/imports/HDL/AES-FPGA/aes_core/aes_rcon.v
+./libresdr_b210.srcs/sources_1/imports/HDL/AES-FPGA/aes_core/aes_sbox.v
+./libresdr_b210.srcs/sources_1/imports/lib/fifo/axi_demux4.v
+./libresdr_b210.srcs/sources_1/imports/lib/fifo/axi_fifo.v
+./libresdr_b210.srcs/sources_1/imports/lib/fifo/axi_fifo32_to_fifo64.v
+./libresdr_b210.srcs/sources_1/imports/lib/fifo/axi_fifo64_to_fifo32.v
+./libresdr_b210.srcs/sources_1/imports/lib/fifo/axi_fifo_2clk.v
+./libresdr_b210.srcs/sources_1/imports/lib/fifo/axi_fifo_bram.v
+./libresdr_b210.srcs/sources_1/imports/lib/fifo/axi_fifo_flop.v
+./libresdr_b210.srcs/sources_1/imports/lib/fifo/axi_fifo_flop2.v
+./libresdr_b210.srcs/sources_1/imports/lib/fifo_200/axi_fifo_legacy.v
+./libresdr_b210.srcs/sources_1/imports/lib/fifo/axi_fifo_short.v
+./libresdr_b210.srcs/sources_1/imports/lib/fifo/axi_mux4.v
+./libresdr_b210.srcs/sources_1/imports/lib/fifo/axi_packet_gate.v
+./libresdr_b210.srcs/sources_1/imports/lib/esdr_b210/top/b200_core.v
+./libresdr_b210.srcs/sources_1/imports/lib/esdr_b210/top/b205_ref_pll.v
+./libresdr_b210.srcs/sources_1/imports/lib/control/binary_encoder.v
+./libresdr_b210.srcs/sources_1/imports/lib/vita_200/chdr_12sc_to_16sc.v
+./libresdr_b210.srcs/sources_1/imports/lib/vita_200/chdr_16sc_to_12sc.v
+./libresdr_b210.srcs/sources_1/imports/lib/vita_200/chdr_16sc_to_32f.v
+./libresdr_b210.srcs/sources_1/imports/lib/vita_200/chdr_16sc_to_8sc.v
+./libresdr_b210.srcs/sources_1/imports/lib/vita_200/chdr_16sc_to_xxxx_chain.v
+./libresdr_b210.srcs/sources_1/imports/lib/vita_200/chdr_32f_to_16sc.v
+./libresdr_b210.srcs/sources_1/imports/lib/vita_200/chdr_8sc_to_16sc.v
+./libresdr_b210.srcs/sources_1/imports/lib/vita_200/chdr_xxxx_to_16sc_chain.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/cic_dec_shifter.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/cic_decim.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/cic_int_shifter.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/cic_interp.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/cic_strober.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/clip.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/clip_reg.v
+./libresdr_b210.srcs/sources_1/imports/lib/vita_200/context_packet_gen.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/cordic_stage.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/cordic_z24.v
+./libresdr_b210.srcs/sources_1/imports/lib/control_200/cvita_uart.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/ddc_chain.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/duc_chain.v
+./libresdr_b210.srcs/sources_1/imports/HDL/Verilog_i2c_eeprom/eeprom.v
+./libresdr_b210.srcs/sources_1/new/encpy.v
+./libresdr_b210.srcs/sources_1/imports/lib/gpif2/fifo64_to_gpif2.v
+./libresdr_b210.srcs/sources_1/imports/lib/vita_200/float_to_iq.v
+./libresdr_b210.srcs/sources_1/imports/lib/gpif2/gpif2_error_checker.v
+./libresdr_b210.srcs/sources_1/imports/lib/gpif2/gpif2_slave_fifo32.v
+./libresdr_b210.srcs/sources_1/imports/lib/gpif2/gpif2_to_fifo64.v
+./libresdr_b210.srcs/sources_1/imports/lib/control/gpio_atr.v
+./libresdr_b210.srcs/sources_1/imports/lib/control/gpio_atr_io.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/hb47_int.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/hb_dec.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/hb_interp.v
+./libresdr_b210.srcs/sources_1/imports/lib/ngc/hbdec1.v
+./libresdr_b210.srcs/sources_1/imports/lib/ngc/hbdec2.v
+./libresdr_b210.srcs/sources_1/imports/HDL/Verilog_i2c_eeprom/iic.v
+./libresdr_b210.srcs/sources_1/imports/HDL/Verilog_i2c_eeprom/iic_control.v
+./libresdr_b210.srcs/sources_1/imports/lib/vita_200/iq_to_float.v
+./libresdr_b210.srcs/sources_1/imports/lib/cat_io/libresdr_b205_io.v
+./libresdr_b210.srcs/sources_1/imports/lib/vita_200/new_rx_control.v
+./libresdr_b210.srcs/sources_1/imports/lib/vita_200/new_rx_framer.v
+./libresdr_b210.srcs/sources_1/imports/lib/vita_200/new_tx_control.v
+./libresdr_b210.srcs/sources_1/imports/lib/vita_200/new_tx_deframer.v
+./libresdr_b210.srcs/sources_1/imports/lib/timing/pps_generator.v
+./libresdr_b210.srcs/sources_1/imports/lib/control_200/radio_ctrl_proc.v
+./libresdr_b210.srcs/sources_1/imports/lib/radio_200/radio_legacy.v
+./libresdr_b210.srcs/sources_1/imports/lib/control/ram_2port_impl.vh
+./libresdr_b210.srcs/sources_1/imports/lib/control/ram_2port.v
+./libresdr_b210.srcs/sources_1/imports/lib/control/reset_sync.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/round.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/round_reg.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/round_sd.v
+./libresdr_b210.srcs/sources_1/imports/lib/control/serial_to_settings.v
+./libresdr_b210.srcs/sources_1/imports/lib/control/setting_reg.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/sign_extend.v
+./libresdr_b210.srcs/sources_1/imports/lib/control/simple_spi_core.v
+./libresdr_b210.srcs/sources_1/imports/lib/wishbone/simple_uart.v
+./libresdr_b210.srcs/sources_1/imports/lib/wishbone/simple_uart_rx.v
+./libresdr_b210.srcs/sources_1/imports/lib/wishbone/simple_uart_tx.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/small_hb_dec.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/small_hb_int.v
+./libresdr_b210.srcs/sources_1/imports/lib/packet_proc_200/source_flow_control_legacy.v
+./libresdr_b210.srcs/sources_1/imports/lib/dsp/srl.v
+./libresdr_b210.srcs/sources_1/imports/lib/control/synchronizer.v
+./libresdr_b210.srcs/sources_1/imports/lib/control/synchronizer_impl.v
+./libresdr_b210.srcs/sources_1/imports/lib/timing/time_compare.v
+./libresdr_b210.srcs/sources_1/imports/lib/timing/timekeeper_legacy.v
+./libresdr_b210.srcs/sources_1/imports/lib/vita_200/trigger_context_pkt.v
+./libresdr_b210.srcs/sources_1/imports/lib/vita_200/tx_responder.v
+./libresdr_b210.srcs/sources_1/imports/lib/control/user_settings.v
+./libresdr_b210.srcs/sources_1/imports/lib/esdr_b210/top/libresdr_b210.v
+
+<sim_1>
+./libresdr_b210.srcs/sim_1/new/ency_tb.v
+
+<utils_1>
+./libresdr_b210.srcs/utils_1/imports/synth_1/libresdr_b210.dcp
+
+<constrs_2>
+./libresdr_b210.srcs/constrs_2/imports/xdc/b210.xdc
+
+<clk_wiz_0>
+./libresdr_b210.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
+./libresdr_b210.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc
+./libresdr_b210.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp
+./libresdr_b210.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_stub.v
+./libresdr_b210.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_stub.vhdl
+./libresdr_b210.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.v
+./libresdr_b210.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.vhdl
+./libresdr_b210.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc
+./libresdr_b210.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_ooc.xdc
+./libresdr_b210.gen/sources_1/ip/clk_wiz_0/mmcm_pll_drp_func_7s_mmcm.vh
+./libresdr_b210.gen/sources_1/ip/clk_wiz_0/mmcm_pll_drp_func_7s_pll.vh
+./libresdr_b210.gen/sources_1/ip/clk_wiz_0/mmcm_pll_drp_func_us_mmcm.vh
+./libresdr_b210.gen/sources_1/ip/clk_wiz_0/mmcm_pll_drp_func_us_pll.vh
+./libresdr_b210.gen/sources_1/ip/clk_wiz_0/mmcm_pll_drp_func_us_plus_pll.vh
+./libresdr_b210.gen/sources_1/ip/clk_wiz_0/mmcm_pll_drp_func_us_plus_mmcm.vh
+./libresdr_b210.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v
+./libresdr_b210.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v
+./libresdr_b210.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xml
+
+<gen_clks>
+./libresdr_b210.srcs/gen_clks/ip/gen_clks/gen_clks.xci
+./libresdr_b210.gen/gen_clks/ip/gen_clks/gen_clks_board.xdc
+./libresdr_b210.gen/gen_clks/ip/gen_clks/gen_clks.dcp
+./libresdr_b210.gen/gen_clks/ip/gen_clks/gen_clks_stub.v
+./libresdr_b210.gen/gen_clks/ip/gen_clks/gen_clks_stub.vhdl
+./libresdr_b210.gen/gen_clks/ip/gen_clks/gen_clks_sim_netlist.v
+./libresdr_b210.gen/gen_clks/ip/gen_clks/gen_clks_sim_netlist.vhdl
+./libresdr_b210.gen/gen_clks/ip/gen_clks/gen_clks.xdc
+./libresdr_b210.gen/gen_clks/ip/gen_clks/gen_clks_ooc.xdc
+./libresdr_b210.gen/gen_clks/ip/gen_clks/mmcm_pll_drp_func_7s_mmcm.vh
+./libresdr_b210.gen/gen_clks/ip/gen_clks/mmcm_pll_drp_func_7s_pll.vh
+./libresdr_b210.gen/gen_clks/ip/gen_clks/mmcm_pll_drp_func_us_mmcm.vh
+./libresdr_b210.gen/gen_clks/ip/gen_clks/mmcm_pll_drp_func_us_pll.vh
+./libresdr_b210.gen/gen_clks/ip/gen_clks/mmcm_pll_drp_func_us_plus_pll.vh
+./libresdr_b210.gen/gen_clks/ip/gen_clks/mmcm_pll_drp_func_us_plus_mmcm.vh
+./libresdr_b210.gen/gen_clks/ip/gen_clks/gen_clks_clk_wiz.v
+./libresdr_b210.gen/gen_clks/ip/gen_clks/gen_clks.v
+./libresdr_b210.gen/gen_clks/ip/gen_clks/gen_clks.xml
+
+<fifo_short_2clk>
+./libresdr_b210.srcs/fifo_short_2clk/ip/fifo_short_2clk/fifo_short_2clk.xci
+./libresdr_b210.gen/fifo_short_2clk/ip/fifo_short_2clk/fifo_short_2clk.dcp
+./libresdr_b210.gen/fifo_short_2clk/ip/fifo_short_2clk/fifo_short_2clk_stub.v
+./libresdr_b210.gen/fifo_short_2clk/ip/fifo_short_2clk/fifo_short_2clk_stub.vhdl
+./libresdr_b210.gen/fifo_short_2clk/ip/fifo_short_2clk/fifo_short_2clk_sim_netlist.v
+./libresdr_b210.gen/fifo_short_2clk/ip/fifo_short_2clk/fifo_short_2clk_sim_netlist.vhdl
+./libresdr_b210.gen/fifo_short_2clk/ip/fifo_short_2clk/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+./libresdr_b210.gen/fifo_short_2clk/ip/fifo_short_2clk/fifo_short_2clk.xdc
+./libresdr_b210.gen/fifo_short_2clk/ip/fifo_short_2clk/fifo_short_2clk_clocks.xdc
+./libresdr_b210.gen/fifo_short_2clk/ip/fifo_short_2clk/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd
+./libresdr_b210.gen/fifo_short_2clk/ip/fifo_short_2clk/synth/fifo_short_2clk.vhd
+./libresdr_b210.gen/fifo_short_2clk/ip/fifo_short_2clk/fifo_short_2clk_ooc.xdc
+./libresdr_b210.gen/fifo_short_2clk/ip/fifo_short_2clk/fifo_short_2clk.xml
+
+<fifo_4k_2clk>
+./libresdr_b210.srcs/fifo_4k_2clk/ip/fifo_4k_2clk/fifo_4k_2clk.xci
+./libresdr_b210.gen/fifo_4k_2clk/ip/fifo_4k_2clk/fifo_4k_2clk.dcp
+./libresdr_b210.gen/fifo_4k_2clk/ip/fifo_4k_2clk/fifo_4k_2clk_stub.v
+./libresdr_b210.gen/fifo_4k_2clk/ip/fifo_4k_2clk/fifo_4k_2clk_stub.vhdl
+./libresdr_b210.gen/fifo_4k_2clk/ip/fifo_4k_2clk/fifo_4k_2clk_sim_netlist.v
+./libresdr_b210.gen/fifo_4k_2clk/ip/fifo_4k_2clk/fifo_4k_2clk_sim_netlist.vhdl
+./libresdr_b210.gen/fifo_4k_2clk/ip/fifo_4k_2clk/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+./libresdr_b210.gen/fifo_4k_2clk/ip/fifo_4k_2clk/fifo_4k_2clk.xdc
+./libresdr_b210.gen/fifo_4k_2clk/ip/fifo_4k_2clk/fifo_4k_2clk_clocks.xdc
+./libresdr_b210.gen/fifo_4k_2clk/ip/fifo_4k_2clk/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd
+./libresdr_b210.gen/fifo_4k_2clk/ip/fifo_4k_2clk/synth/fifo_4k_2clk.vhd
+./libresdr_b210.gen/fifo_4k_2clk/ip/fifo_4k_2clk/fifo_4k_2clk_ooc.xdc
+./libresdr_b210.gen/fifo_4k_2clk/ip/fifo_4k_2clk/fifo_4k_2clk.xml
+
+Section (3.4) - REMOTE IP DEFINITIONS
+-------------------------------------
+List of all the remote IP's present in the archived project:-
+
+<sources_1>
+None
+
+<clk_wiz_0>
+None
+
+<gen_clks>
+None
+
+<fifo_short_2clk>
+None
+
+<fifo_4k_2clk>
+None
+
+Section (4) - JOURNAL/LOG FILES
+-------------------------------
+List of Journal/Log files that were added to the archived project:-
+
+Source File = /home/lvchenyang/vivado.jou
+Archived Location = ./libresdr_b210/vivado.jou
+
+Source File = /home/lvchenyang/vivado.log
+Archived Location = ./libresdr_b210/vivado.log
+
