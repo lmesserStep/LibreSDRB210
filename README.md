@@ -39,9 +39,8 @@ The images will be downloaded to:
 
 Replace the default B210 image in /opt/local/share/uhd/images with the custom image provided in this repository.
 ```bash
-Clone this repository to your local machine:
-git clone git@github.com:lmesserStep/LibreSDRB210.git
-sudo cp <path_to_repo>/custom_b210_image.bin /opt/local/share/uhd/images/
+wget https://github.com/lmesserStep/LibreSDRB210/raw/main/usrp_b210_fpga.bin
+cp usrp_b210_fpga.bin /opt/local/share/uhd/images
 ```
 
 ## Verify
