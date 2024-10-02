@@ -5,7 +5,7 @@ This repository contains essential files and instructions for setting up the USR
 ## Prerequisites
 
 - Ubuntu Linux or another Debian-based distribution
-- A USRP B210 LibreSDR clone 
+- A USRP B210 LibreSDR clone (XC7A100T+AD9361 ONLY)
 - Git installed on your machine
 
 ## Installation Steps
