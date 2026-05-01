@@ -535,11 +535,30 @@ b205_ref_pll(
         assign             LED_TXRX1_B= 1'b1;   
         assign             LED_TXRX2_B= 1'b1;
         
-        assign             LED_USER_R = ~REF_LOCKED;
+        // LED_USER_R: lights up when reference is unlocked OR FPGA over-temperature.
+        // This combines two "needs attention" conditions onto the user LED.
+        assign             LED_USER_R = ~REF_LOCKED | xadc_over_temp;
         //assign             LED_USER_B = 1'b1;
-        
-        
-        
+
+    ///////////////////////////////////////////////////////////////////////
+    // FPGA system telemetry (XADC: junction temp, supply voltages)
+    ///////////////////////////////////////////////////////////////////////
+    wire        xadc_over_temp;
+    wire [7:0]  xadc_alarm;
+    wire [11:0] xadc_temp_raw, xadc_vccint_raw, xadc_vccaux_raw, xadc_vbram_raw;
+    wire        xadc_valid;
+
+    xadc_telemetry xadc_inst (
+        .clk         (bus_clk),
+        .reset       (bus_rst),
+        .temp_raw    (xadc_temp_raw),
+        .vccint_raw  (xadc_vccint_raw),
+        .vccaux_raw  (xadc_vccaux_raw),
+        .vbram_raw   (xadc_vbram_raw),
+        .valid       (xadc_valid),
+        .over_temp   (xadc_over_temp),
+        .alarm       (xadc_alarm)
+    );
 
 endmodule
 `default_nettype wire
