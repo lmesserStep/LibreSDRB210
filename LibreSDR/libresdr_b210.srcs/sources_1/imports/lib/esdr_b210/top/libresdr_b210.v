@@ -419,7 +419,10 @@ b205_ref_pll(
     ///////////////////////////////////////////////////////////////////////
     wire [9:0] fp_gpio_in, fp_gpio_out, fp_gpio_ddr;
 
-    b200_core #(.EXTRA_BUFF_SIZE(12)) b200_core
+    b200_core #(
+        .EXTRA_BUFF_SIZE(12),
+        .SAMPLE_FIFO_SIZE(12)  // 4K samples (was default 11=2K). Improves USB jitter tolerance, especially on Windows.
+    ) b200_core
     (
         .bus_clk(bus_clk), .bus_rst(bus_rst),
         .tx_tdata(tx_tdata), .tx_tlast(tx_tlast), .tx_tvalid(tx_tvalid), .tx_tready(tx_tready),
